@@ -1,14 +1,6 @@
 "use client";
 
-import {
-  CalendarIcon,
-  HomeIcon,
-  MailIcon,
-  Moon,
-  PencilIcon,
-  Rows2,
-  Sun,
-} from "lucide-react";
+import { CalendarIcon, HomeIcon, MailIcon, Moon, Sun } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -117,8 +109,6 @@ const Icons = {
 const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "#", icon: PencilIcon, label: "Blog" },
-    // { href: "#", icon: Rows2, label: "Notion" },
     { href: "./resume.pdf", icon: Icons.feather, label: "Resume" },
   ],
   contact: {
@@ -133,11 +123,6 @@ const DATA = {
         url: "https://www.linkedin.com/in/adi-ray/",
         icon: Icons.linkedin,
       },
-      // X: {
-      //   name: "X",
-      //   url: "https://x.com/",
-      //   icon: Icons.x,
-      // },
       Notion: {
         name: "Notion",
         url: "https://aditya-tech.notion.site/dev-journal",

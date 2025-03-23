@@ -1,8 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "motion/react";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { Send } from "lucide-react";
 import HCaptcha from "@hcaptcha/react-hcaptcha";
 import { toast } from "sonner";
@@ -13,7 +12,7 @@ const ContactMe = () => {
   const [token, setToken] = useState("");
   const [error, setError] = useState("");
   const captchaRef = useRef<any>(null);
-  const { theme, setTheme } = useTheme();
+  const { theme } = useTheme();
 
   const hCaptchaSiteKey = process.env.NEXT_PUBLIC_HCAPTCHA_SITE_KEY || "";
   const web3FormsAccessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "";

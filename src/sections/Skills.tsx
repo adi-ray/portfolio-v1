@@ -4,7 +4,6 @@ import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CSSIcon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import GitIcon from "@/assets/icons/git.svg";
 import NextIcon from "@/assets/icons/nextjs.svg";
@@ -17,8 +16,6 @@ import GCloudIcon from "@/assets/icons/google-cloud.svg";
 import NodeIcon from "@/assets/icons/nodejs.svg";
 import MongodbIcon from "@/assets/icons/mongodb.svg";
 import MysqlIcon from "@/assets/icons/mysql.svg";
-import { Fragment } from "react";
-import Image from "next/image";
 
 const skillsData = [
   {

@@ -13,7 +13,7 @@ const Intro = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex items-end gap-2 text-4xl font-bold mb-4"
         >
-          Hi! I'm Aditya.{" "}
+          Hi! I&apos;m Aditya.{" "}
           <Image src="/hand-icon.svg" width={35} height={35} alt="Hi"></Image>
         </motion.h1>
         <motion.p
@@ -22,8 +22,8 @@ const Intro = () => {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="text-base text-gray-800 dark:text-gray-300"
         >
-          I'm a Full Stack Web Developer and a Final Year B.Tech IT student at
-          IIIT Vadodara. Currently serving as the GDSC Cloud Lead, I'm
+          I&apos;m a Full Stack Web Developer and a Final Year B.Tech IT student at
+          IIIT Vadodara. Currently serving as the GDSC Cloud Lead, I&apos;m
           passionate about cloud computing and web technologies. My expertise
           spans frontend, backend, and full-stack development. I love solving
           complex problems, optimizing web performance, and building innovative
